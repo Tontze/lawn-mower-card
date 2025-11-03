@@ -387,10 +387,10 @@ export class LawnMowerCard extends LitElement {
               ${localize('common.stop')}
             </paper-button>
             <paper-button
-              @click="${this.handleLawnMowerAction('return_to_base')}"
+              @click="${this.handleLawnMowerAction('lawn_mower.dock')}"
             >
               <ha-icon icon="hass:home-map-marker"></ha-icon>
-              ${localize('common.return_to_base')}
+              ${localize('common.lawn_mower.dock')}
             </paper-button>
           </div>
         `;
@@ -409,10 +409,10 @@ export class LawnMowerCard extends LitElement {
               ${localize('common.continue')}
             </paper-button>
             <paper-button
-              @click="${this.handleLawnMowerAction('return_to_base')}"
+              @click="${this.handleLawnMowerAction('lawn_mower.dock')}"
             >
               <ha-icon icon="hass:home-map-marker"></ha-icon>
-              ${localize('common.return_to_base')}
+              ${localize('common.lawn_mower.dock')}
             </paper-button>
           </div>
         `;
@@ -457,8 +457,8 @@ export class LawnMowerCard extends LitElement {
 
         const dockButton = html`
           <ha-icon-button
-            label="${localize('common.return_to_base')}"
-            @click="${this.handleLawnMowerAction('return_to_base')}"
+            label="${localize('common.lawn_mower.dock')}"
+            @click="${this.handleLawnMowerAction('lawn_mower.dock')}"
             ><ha-icon icon="hass:home-map-marker"></ha-icon>
           </ha-icon-button>
         `;
