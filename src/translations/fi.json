@@ -1,6 +1,6 @@
 {
   "status": {
-    "mowing": "Siivoaa",
+    "mowing": "Työskentelee",
     "auto": "Automaattisiivous",
     "spot": "Kohdesiivous",
     "edge": "Reunasiivous",
@@ -26,7 +26,7 @@
   },
   "source": {
     "gentle": "Hellävarainen",
-    "silent": "Hiljainen",
+    "silent": "Äänetön",
     "standard": "Perustaso",
     "medium": "Keskitaso",
     "turbo": "Turbo",
@@ -35,15 +35,15 @@
     "max_plus": "Max+",
     "high": "High",
     "strong": "Voimakas",
-    "quiet": "Quiet",
+    "quiet": "Hiljainen",
     "auto": "Automaattinen",
     "balanced": "Tasapainoinen",
     "custom": "Mukautettu",
     "off": "Pois päältä"
   },
   "common": {
-    "name": "Imurikortti",
-    "description": "Imurikortti mahdollistaa robotti-imurin ohjauksen.",
+    "name": "Robottileikkurikortti",
+    "description": "Robottileikkurikortti mahdollistaa robotti-imurin ohjauksen.",
     "start": "Käynnistä",
     "continue": "Jatka",
     "pause": "Tauko",
