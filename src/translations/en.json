@@ -44,7 +44,7 @@
   "common": {
     "name": "Lawn Mower Card",
     "description": "Lawn Mower card allows you to control your robot lawn mower.",
-    "start": "Clean",
+    "start": "Start",
     "continue": "Continue",
     "pause": "Pause",
     "stop": "Stop",
